@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(46, 36, 36);
+  padding: 5rem;
+}
+.heading {
+  color: orange;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.content {
+  margin-top: 2rem;
+  color: rgb(248, 237, 224);
+  font-size: 1.3rem;
+  text-align: center;
+}

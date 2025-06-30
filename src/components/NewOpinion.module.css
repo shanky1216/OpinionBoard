@@ -1,0 +1,61 @@
+.newOpinionContainer {
+  background: rgb(46, 36, 36);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 2rem;
+  justify-content: end;
+  box-shadow: 2px 2px 20px rgb(85, 85, 85);
+}
+.heading {
+  color: rgb(255, 207, 117);
+  font-size: 2rem;
+}
+.inputContainer {
+  display: flex;
+  gap: 2rem;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  & label {
+    color: rgb(248, 237, 224);
+  }
+  & input,
+  textarea {
+    width: 100%;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    padding: 3px;
+    background: rgb(248, 237, 224);
+  }
+}
+.btnContainer {
+  display: flex;
+  justify-content: end;
+}
+.btn {
+  cursor: pointer;
+  background: orange;
+  color: rgb(32, 28, 22);
+  border: none;
+  padding: 2px 4px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  &:hover {
+    background: rgb(252, 192, 80);
+    color: rgb(0, 0, 0);
+  }
+}
+
+.errors {
+  list-style: none;
+  color: rgb(248, 237, 224);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

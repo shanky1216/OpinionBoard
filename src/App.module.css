@@ -1,0 +1,12 @@
+.appContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.appContent{
+    width: 80%;
+    border-left:2px solid black;
+    border-right:2px solid black;
+    padding: 2rem ;
+}
